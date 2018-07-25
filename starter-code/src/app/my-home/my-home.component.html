@@ -1,0 +1,12 @@
+
+<div class="global">
+
+    <div *ngFor="let movie of moviesList" class="card">
+
+        <a [routerLink]="['/movie',movie.id]"><h4>ROOM: {{movie.room}}</h4></a>    
+        <div class="image"><img class="home-image"src="{{movie.poster}}" alt="portada peli"></div>
+        <h5>{{movie.title}}</h5>
+    
+    
+    </div>
+</div>

@@ -1,0 +1,26 @@
+.global{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.card{
+    width: 15%;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.image{
+    
+}
+
+.home-image{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+img{
+    max-width: 100%
+}
